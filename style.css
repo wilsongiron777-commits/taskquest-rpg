@@ -1,1 +1,105 @@
+/* Configuración general con colores estilo juego retro */
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 15px;
+}
+
+/* Tarjeta principal estilo videojuego */
+#game-card {
+  background: #1e293b;
+  border: 3px solid #38bdf8;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 15px rgba(56, 189, 248, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+  font-size: 1.8rem;
+  margin-top: 0;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+/* Panel de estadísticas */
+#stats {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  margin-bottom: 20px;
+}
+
+#stats p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+#stats strong {
+  color: #facc15;
+}
+
+#xp {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #334155;
+  margin: 20px 0;
+}
+
+h3 {
+  color: #94a3b8;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Entrada de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #334155;
+  background-color: #0f172a;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #38bdf8;
+}
+
+/* Botón estilo RPG gamer */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+  transition: transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
 
