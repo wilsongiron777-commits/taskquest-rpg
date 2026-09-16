@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskQuest - RPG Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-card">
+    <h1>⚔️ TaskQuest</h1>
+    <div id="stats">
+      <p>Jugador: <strong>Héroe Nivel 1</strong></p>
+      <p>Experiencia (XP): <span id="xp">0</span> / 100</p>
+    </div>
+    
+    <hr>
+
+    <h3>Agregar Misión Diaria</h3>
+    <input type="text" id="task-input" placeholder="Ej. Estudiar 30 min...">
+    <button onclick="completarMision()">¡Misión Cumplida! (+20 XP)</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
